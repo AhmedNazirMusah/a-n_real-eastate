@@ -2,7 +2,7 @@ import express from "express"
 
 const router = express.Router()
 
-router.get("/post", (req,res) => {
+router.get("/", (req,res) => {
     res.send("psot working")
 });
 
